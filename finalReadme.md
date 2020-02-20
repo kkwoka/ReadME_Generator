@@ -1,10 +1,10 @@
 
-  # idk
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/kkwoka/idk)
+  # fdsa
+  [![License](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://github.com/dfa/fdsa)
   ​
   ## Description
   ​
-  test
+  fdas
   ​
   ## Table of Contents 
   ​
@@ -25,29 +25,29 @@
   To install necessary dependencies, run the following command:
   ​
   ```
-  npm i
+  fdas
   ```
   ## Usage
   ​
-  nothing
+  fdas
   ​
   ## License
   ​
-  This project is licensed under the Apache license.
+  This project is licensed under the IBM license.
     
   ## Contributing
   ​
-  everything
+  fdas
   ​
   ## Tests
   ​
   To run tests, run the following command:
   ```
-  npm test
+  fdas
   ```
  
   ## Questions
   ​
-  <img src="https://avatars3.githubusercontent.com/u/57764303?v=4" alt="avatar" style="border-radius: 16px" width="30" />
+  <img src="https://avatars0.githubusercontent.com/u/278978?v=4" alt="avatar" style="border-radius: 16px" width="30" />
   ​
-  If you have any questions about the repo, contact [kkwoka](https://github.com/kkwoka).
+  If you have any questions about the repo, contact [dfa](https://github.com/dfa).

@@ -7,6 +7,12 @@
   * finalReadme.md
   * index.js
   * README.md
+
+  ## Installation
+  To use this code to create a readme file, you will need to install (npm i):
+  * axios
+  * inquirer
+  * util
   ​
   ​
   ## Links

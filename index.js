@@ -56,29 +56,28 @@ function userPrompt() {
 
   if (answers.license === 'Mozilla') {
     answersURL = 'https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg'
-  }
+  };
   if (answers.license === 'Apache') {
     answersURL = 'https://img.shields.io/badge/License-Apache%202.0-blue.svg'
-  }
+  };
   if (answers.license === 'IBM') {
     answersURL = 'https://img.shields.io/badge/License-IPL%201.0-blue.svg'
-  }
+  };
   if (answers.license === 'MIT') {
     answersURL = 'https://img.shields.io/badge/License-MIT-yellow.svg'
-  }
+  };
 
   axios.get(`https://api.github.com/users/${answers.userName}`)
     .then((getResponse) => {
       response = getResponse.data;
       readme = generateReadme(response, answers, answersURL);
       return writeFileSync("finalReadme.md", readme);
-    })
+    });
     
-})
-.catch(function(err) {
+}).catch(function(err) {
   console.log(err);
 });
-}
+};
 
 function generateReadme(response, answers, answersURL) {
   return `
@@ -134,7 +133,6 @@ function generateReadme(response, answers, answersURL) {
   <img src="${response.avatar_url}" alt="avatar" style="border-radius: 16px" width="30" />
   ​
   If you have any questions about the repo, contact [${response.login}](${response.html_url}).`;
-}
+};
 
-
-  userPrompt();
+userPrompt();
