@@ -10,9 +10,9 @@
   * finalReadme.md
   * index.js
   * README.md
+  * .gitignore
   * Assets
     * readmegif.gif
-    * .gitignore
 
   ## Installation
   To use this code to create a readme file, you will need to install (npm i):
