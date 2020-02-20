@@ -1,13 +1,12 @@
 
-  # fdsa
-  [![License](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://github.com/dfa/fdsa)
+  # ReadMe_Generator
+  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/kkwoka/ReadMe_Generator)
   ​
   ## Description
   ​
-  fdas
+  creating a readme from a js file and user prompts
   ​
   ## Table of Contents 
-  ​
   * [Installation](#installation)
   ​
   * [Usage](#usage)
@@ -23,31 +22,30 @@
   ## Installation
   ​
   To install necessary dependencies, run the following command:
-  ​
   ```
-  fdas
+  npm i
   ```
   ## Usage
   ​
-  fdas
+  axios, inquirer, util
   ​
   ## License
   ​
-  This project is licensed under the IBM license.
+  This project is licensed under the MIT license.
     
   ## Contributing
   ​
-  fdas
+  nothing
   ​
   ## Tests
   ​
   To run tests, run the following command:
   ```
-  fdas
+  npm test
   ```
  
   ## Questions
   ​
-  <img src="https://avatars0.githubusercontent.com/u/278978?v=4" alt="avatar" style="border-radius: 16px" width="30" />
+  <img src="https://avatars3.githubusercontent.com/u/57764303?v=4" alt="avatar" style="border-radius: 16px" width="100" />
   ​
-  If you have any questions about the repo, contact [dfa](https://github.com/dfa).
+  If you have any questions about the repo, contact [kkwoka](https://github.com/kkwoka).
