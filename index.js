@@ -74,9 +74,9 @@ function userPrompt() {
       return writeFileSync("finalReadme.md", readme);
     });
     
-}).catch(function(err) {
-  console.log(err);
-});
+  }).catch(function(err) {
+    console.log(err);
+  });
 };
 
 function generateReadme(response, answers, answersURL) {
@@ -89,7 +89,6 @@ function generateReadme(response, answers, answersURL) {
   ${answers.description}
   ​
   ## Table of Contents 
-  ​
   * [Installation](#installation)
   ​
   * [Usage](#usage)
@@ -105,7 +104,6 @@ function generateReadme(response, answers, answersURL) {
   ## Installation
   ​
   To install necessary dependencies, run the following command:
-  ​
   \`\`\`
   ${answers.dependencies}
   \`\`\`
